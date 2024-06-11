@@ -1,0 +1,97 @@
+https://app.cvat.ai/
+
+### Annotation Formats and Supported Models
+
+Below is a list of annotation formats available in CVAT and the models that support each format.
+
+1. **COCO 1.0**
+   - **Description:** Used for object detection, segmentation, and keypoint detection.
+   - **Supported Models:** Mask R-CNN, YOLO, SSD, Faster R-CNN, CenterNet
+
+2. **COCO Keypoints 1.0**
+   - **Description:** Used for keypoint detection tasks.
+   - **Supported Models:** PoseNet, OpenPose, Keypoint R-CNN
+
+3. **CVAT for Images 1.1**
+   - **Description:** CVAT's native format for image annotations.
+   - **Supported Models:** Custom models, various image segmentation and object detection models
+
+4. **CVAT for Video 1.1**
+   - **Description:** CVAT's native format for video annotations.
+   - **Supported Models:** Custom video processing models
+
+5. **CamVid 1.0**
+   - **Description:** Used for road scene understanding and segmentation.
+   - **Supported Models:** SegNet, ENet, FCN
+
+6. **Cityscapes 1.0**
+   - **Description:** Used for urban scene segmentation.
+   - **Supported Models:** DeepLab, PSPNet, HRNet
+
+7. **Datumaro 1.0**
+   - **Description:** Datumaro format for dataset conversion and management.
+   - **Supported Models:** Flexible format, used for various model preparations
+
+8. **ICDAR Localization 1.0**
+   - **Description:** Used for text localization in images.
+   - **Supported Models:** EAST, CRAFT, TextBoxes
+
+9. **ICDAR Recognition 1.0**
+   - **Description:** Used for text recognition tasks.
+   - **Supported Models:** CRNN, Tesseract, Rosetta
+
+10. **ICDAR Segmentation 1.0**
+    - **Description:** Used for text segmentation tasks.
+    - **Supported Models:** Text segmentation models, custom text recognition models
+
+11. **ImageNet 1.0**
+    - **Description:** Used for image classification.
+    - **Supported Models:** ResNet, VGG, Inception, MobileNet
+
+12. **KITTI 1.0**
+    - **Description:** Used for autonomous driving tasks, including detection and segmentation.
+    - **Supported Models:** PointPillars, PIXOR, Yolo3D
+
+13. **LabelMe 3.0**
+    - **Description:** Used for polygon annotations.
+    - **Supported Models:** Custom models, image segmentation models
+
+14. **LFW 1.0**
+    - **Description:** Used for face recognition tasks.
+    - **Supported Models:** FaceNet, DeepFace, ArcFace
+
+15. **Market-1501 1.0**
+    - **Description:** Used for person re-identification.
+    - **Supported Models:** ReID models, custom person identification models
+
+16. **MOT 1.1**
+    - **Description:** Used for multi-object tracking.
+    - **Supported Models:** DeepSORT, FairMOT, Tracktor++
+
+17. **MOTS PNG 1.0**
+    - **Description:** Used for multi-object tracking and segmentation.
+    - **Supported Models:** MOTSNet, custom tracking models
+
+18. **Open Images V6 1.0**
+    - **Description:** Used for object detection and segmentation with a large, diverse dataset.
+    - **Supported Models:** YOLO, Faster R-CNN, EfficientDet
+
+19. **PASCAL VOC 1.1**
+    - **Description:** Used for object detection and segmentation.
+    - **Supported Models:** SSD, Faster R-CNN, YOLO, Mask R-CNN
+
+20. **Segmentation Mask 1.1**
+    - **Description:** Exports annotations as binary masks for segmentation tasks.
+    - **Supported Models:** U-Net, DeepLab, FCN, SegNet
+
+21. **VGGFace2 1.0**
+    - **Description:** Used for face recognition and classification.
+    - **Supported Models:** VGGFace, ResNet-50, SENet
+
+22. **WiderFace 1.0**
+    - **Description:** Used for face detection tasks.
+    - **Supported Models:** RetinaFace, DSFD, MTCNN
+
+23. **YOLO 1.1**
+    - **Description:** Used for object detection in YOLO format.
+    - **Supported Models:** YOLOv3, YOLOv4, YOLOv5, YOLOv7
